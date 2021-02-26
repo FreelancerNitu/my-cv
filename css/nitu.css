@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+    background: linear-gradient(#3da330,#fb5800);
+    padding: 20px;
+
+}
+img{
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(35, 60, 204);
+}
+.headerDes h2 {
+    font-size: 32px;
+}
+.images{
+    width: 100px;
+    height: 120px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    float: left;
+    transition: .4s;
+}
+img.images:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.headerDes{
+    float: left;
+    padding: 30px;
+}
+.headerContact{
+    float: right;
+    padding: 30px;
+}
+.headerContact a{
+    text-decoration: none;
+    color: #63f1ea;
+    font-weight: bold;
+    transition: .3s;
+}
+.headerContact a:hover{
+    text-decoration: underline;
+    color: tomato;
+
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: dashed black;
+    border-bottom: none;
+    margin: 20px auto;
+}
+/* header end */
+.contant{
+    margin-bottom: 30px;
+}
+.commonhr{
+    border: 1px dashed #ddd;
+    border-bottom: none;
+    margin: 20px auto;
+}
+.Rdiv {
+    width: 30%;
+    float: left;
+}
+
+.Ldiv {
+    width: 70%;
+    float: left;
+}
+.Ldiv p {
+    font-size: 25px;
+    color: #fff;
+    line-height: 1.5;
+}
+.Ldiv img {
+    width: 150px;
+    height: 220px;
+    margin: 27px 18px;
+    transition: .3s;
+}
+.Ldiv img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.Ldiv h3 {
+    width: 134px;
+    margin: 10px auto;
+    color: #fff;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.Ldiv span {
+    font-size: 21px;
+    color: #d5ead5;
+}
+.LEducationDev {
+    width: 45%;
+    float: left;
+}
+
+.REducationDev {
+    width: 45%;
+    float: right;
+}
+
+/* footer start */
+#footerMenu{
+    background:#333;
+    text-align: center;
+    padding: 10px;
+}
+footer#footerMenu a {
+    text-decoration: none;
+    color: #f9eded;
+    margin: 20px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+footer#footerMenu p {
+    color: #d2cbcb;
+    margin-top: 20px;
+}
+footer#footerMenu a:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+/* footer end */
